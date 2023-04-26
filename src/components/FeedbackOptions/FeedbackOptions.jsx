@@ -1,13 +1,18 @@
-// import s from './FeedbackOptions.module.css';
+import s from './FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
 import { STATUSES } from 'components/helpers/const';
 
 export default function FeedbackOptions(props) {
   const { callback } = props;
   return (
-    <div>
+    <div className={s.wrapper}>
       {STATUSES.map(status => (
-        <button key={status} onClick={() => callback(status)}>
+        <button
+          className={s.button}
+          type="button"
+          key={status}
+          onClick={() => callback(status)}
+        >
           {status}
         </button>
       ))}
