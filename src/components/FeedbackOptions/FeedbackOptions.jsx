@@ -1,6 +1,6 @@
 import s from './FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
-import { STATUSES } from 'components/helpers/const';
+import { STATUSES } from '../../helpers/const';
 
 export default function FeedbackOptions(props) {
   const { callback } = props;

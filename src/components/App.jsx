@@ -2,7 +2,7 @@ import { Component } from 'react';
 import {
   countTotalFeedback,
   countPositiveFeedbackPercentage,
-} from '../components/helpers/helpers.js';
+} from '../helpers/helpers.js';
 import Section from '../components/Section/Section.jsx';
 import FeedbackOptions from '../components/FeedbackOptions/FeedbackOptions.jsx';
 import Statistics from '../components/Statictics/Statistics.jsx';
